@@ -1,0 +1,195 @@
+<html>
+    <head><title>Detailed Form</title></head>
+    <body>
+        <form>
+
+        <h1>Detailed Digital Marketing Requirements Checklist</h1>
+        <h2>Company Information</h2>
+
+        <h3>Company Overview:</h3>
+        <input type="textarea" Placeholder="Breif Description.........."><br>
+        <input type="text" Placeholder="Year Established.............."><br>
+        <input type="text" Placeholder="Number Of Employees............"><br>
+
+        <h3>Products/Services:</h3>
+        <input type="text" Placeholder="Main Products/Services.............."><br>
+        <input type="text" Placeholder="Unique Selling Proposition(USPs)............"><br>
+        
+        <h3>Current Online Presence:</h3>
+        <input type="text" Placeholder="Website URL.............."><br>
+        <input type="text" Placeholder="Social Media Handles............"><br>
+        <input type="text" Placeholder="Other Online Platforms............"><br>
+
+        <h2>Goals and Objectives</h2>
+        <input type="text" Placeholder="Short-Term Goals (Next 3-6 Months).............."><br>
+        <input type="text" Placeholder="Long-Term Goals (1 Year and Beyond)............"><br>
+        <input type="text" Placeholder="Key Performance Indicators (KPIs)
+        ............"><br>
+
+        <h2>Target Audience</h2>
+        <h3>Primary Target Audience:</h3>
+        <input type="text" Placeholder="Age Group:.............."><br>
+        <h5>Gender:</h5>
+        <div class="radio-container">
+            <input type="radio" id="radio-yes" name="fav_language" value="Yes">
+            <label for="radio-yes">Male</label>
+        </div>
+    
+        <div class="radio-container">
+            <input type="radio" id="radio-no" name="fav_language" value="No">
+            <label for="radio-no">Female</label>
+        </div><br>
+        <input type="text" Placeholder="Location:............"><br>
+        <input type="text" Placeholder="Interests:............"><br>
+
+        <h3>Secondary Target Audience:</h3>
+        <input type="text"><br>
+        <h3>Secondary Target Audience:</h3>
+        <input type="text" Placeholder="Describe your ideal customer............"><br>
+
+        <h2>Budget</h2>
+        <h3>Monthly Budget Allocation for Digital Marketing:</h3>
+        <input type="text" Placeholder="Amount............"><br>
+
+        <h3>Are you open to increasing the budget based on performance and results?</h3>
+        <div class="radio-container">
+            <input type="radio" id="radio-yes" name="fav_language" value="Yes">
+            <label for="radio-yes">Yes</label>
+        </div>
+    
+        <div class="radio-container">
+            <input type="radio" id="radio-no" name="fav_language" value="No">
+            <label for="radio-no">No</label>
+        </div>
+
+        <h2>Services Required</h2>
+
+        <h3>SEO</h3>
+     <select name="SEO" id="SEO">
+    <option value="On-Page SEO">On-Page SEO</option>
+    <option value="Off-Page SEO">Off-Page SEO</option>
+    <option value="Technical SEO">Technical SEO</option>
+    <option value="Local SEO">Local SEO</option>
+  </select>
+
+  <h3>Content Marketing:</h3>
+     <select name="Content Marketing:" id="Content-Marketing">
+    <option value="On-Page SEO">Blogging</option>
+    <option value="Off-Page SEO">Video Content</option>
+    <option value="Technical SEO">Infographics</option>
+    <option value="Local SEO">Ebooks/Whitepapers</option>
+  </select>
+
+  <h3>Social Media Marketing:</h3>
+
+    <input type="text" placeholder="Platforms................"><br>
+    <select name="Content Marketing:" id="Social-Marketing">
+ <option value="Technical SEO">Organic Posting</option>
+ <option value="Local SEO">Paid Advertising</option>
+</select>
+
+      <h3>Email Marketing:</h3>
+     <select name="Content Marketing" id="Content-Marketing">
+    <option value="On-Page SEO">Newsletter</option>
+    <option value="Off-Page SEO">Promotional Emails</option>
+    <option value="Technical SEO">Drip Campaigns</option>
+  </select>
+
+  <h3>PPC Advertising:</h3>
+  <input type="text" placeholder="Platforms................"><br>
+
+<h3>Affiliate/Influencer Marketing:</h3>
+  <select name="Content Marketing" id="Content-Marketing">
+ <option value="On-Page SEO">Affiliate Marketing</option>
+ <option value="Off-Page SEO">Influencer Marketing</option>
+</select>
+
+<h2>Current Marketing Activities</h2>
+<input type="text" Placeholder="Current Marketing Strategies............"><br>
+<input type="text" Placeholder="What is working well?............"><br>
+<input type="text" Placeholder="What is not working?............"><br>
+
+<h2>Additional Information</h2>
+<input type="textarea" Placeholder="Any specific challenges you are facing that you want to address with digital marketing?............"><br>
+<input type="textarea" Placeholder="Any other information or requirements you would like to add?............"><br>
+
+    </form>
+        
+
+    <style>
+        input[type=text]
+        {
+            border:none;
+            width:50%;
+            padding-bottom:20px;
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 20px;;
+            outline: none;
+            border-bottom: 2px solid black;
+             &:hover{
+                border-bottom: 2px solid grey;
+             }
+        }
+    
+        input[type=textarea]{
+            border:none;
+            width:50%;
+            padding-bottom:90px;
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 20px;;
+            outline: none;
+            border-bottom: 2px solid black;
+             &:hover{
+                border-bottom: 2px solid grey;
+             }
+        }
+        input[type=radio]{
+            font-size:30px;
+           padding-bottom:40px;
+        }
+       select{
+        padding:10px;
+        font-size: 15px;
+       }
+       h2{
+        text-align: center;
+        font-size: 30px;
+       }
+       h1{
+        text-align: center;
+       }
+       h5{
+        font-size: 15px;
+       }
+       .radio-container {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        /* Style the radio input */
+        .radio-container input[type="radio"] {
+            display: none; /* Hide the default radio button */
+        }
+
+        /* Style the custom radio button label */
+        .radio-container label {
+            display: inline-block;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom:30px;
+        }
+
+        /* Define styles for the checked state of the radio button */
+        .radio-container input[type="radio"]:checked + label {
+            background-color: #007bff; /* Change the background color */
+            color: #fff; /* Change the text color */
+            border: 1px solid #007bff; /* Change the border color */
+        }
+    </style>
+    </body>
+</html>
